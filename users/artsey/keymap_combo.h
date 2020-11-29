@@ -63,7 +63,6 @@ int COMBO_LEN = sizeof(key_combos) / sizeof(key_combos[0]);
 void process_combo_event(uint16_t combo_index, bool pressed) {
     switch (combo_index) {
 #include "combos.def"
-
     }
 
     // Allow user overrides per keymap

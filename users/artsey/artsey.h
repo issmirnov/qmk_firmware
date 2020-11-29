@@ -1,6 +1,6 @@
 #pragma once
 #include "quantum.h"
-#include "wrappers.h"
+
 
 extern keymap_config_t keymap_config;
 
@@ -30,58 +30,46 @@ enum layers {
 
 enum custom_keycodes {
   BASE = SAFE_RANGE,
-  DOMATH,
-  CUT,
-  COPY,
-  PASTE,
-  COPYDOWN, 
-  CUTWORD,
-  COPYWORD,
-  CUTLINE,
-  COPYLINE,
   LOCK_SHIFT,
-  LINEDOWN,
-  MATHFRAC,
-  MATHENVCENTER,
-  ARTSEY_A,
-  ARTSEY_R,
-  ARTSEY_T,
-  ARTSEY_S,
-  ARTSEY_E,
-  ARTSEY_Y,
-  ARTSEY_I,
-  ARTSEY_O,
-  LARTSEY_A,
-  LARTSEY_R,
-  LARTSEY_T,
-  LARTSEY_S,
-  LARTSEY_E,
-  LARTSEY_Y,
-  LARTSEY_I,
-  LARTSEY_O,
-  ARTSEY_1,
-  ARTSEY_2,
-  ARTSEY_3,
-  ARTSEY_4, 
-  ARTSEY_5,
-  ARTSEY_6,
+  A_A,
+  A_R,
+  A_T,
+  A_S,
+  A_E,
+  A_Y,
+  A_I,
+  A_O,
+  LA_A,
+  LA_R,
+  LA_T,
+  LA_S,
+  LA_E,
+  LA_Y,
+  LA_I,
+  LA_O,
+  A_1,
+  A_2,
+  A_3,
+  A_4, 
+  A_5,
+  A_6,
 };
 
 
 
 
-#define ARTSEY_A LT(_ARTSEY_BRAC,KC_A)
-#define ARTSEY_R KC_R
-#define ARTSEY_T KC_T
-#define ARTSEY_S LT(_ARTSEY_NUM,KC_S)
-#define ARTSEY_E LT(_ARTSEY_SYM,KC_E)
-#define ARTSEY_Y KC_Y
-#define ARTSEY_I KC_I
-#define ARTSEY_O LT(_ARTSEY_NAV,KC_O)
-#define ARTSEY_1 KC_1
-#define ARTSEY_2 KC_2
-#define ARTSEY_3 KC_3
-#define ARTSEY_4 KC_4
-#define ARTSEY_5 KC_5
-#define ARTSEY_6 KC_6
+#define A_A LT(_ARTSEY_BRAC,KC_A)
+#define A_R KC_R
+#define A_T KC_T
+#define A_S LT(_ARTSEY_NUM,KC_S)
+#define A_E LT(_ARTSEY_SYM,KC_E)
+#define A_Y KC_Y
+#define A_I KC_I
+#define A_O LT(_ARTSEY_NAV,KC_O)
+#define A_1 KC_1
+#define A_2 KC_2
+#define A_3 KC_3
+#define A_4 KC_4
+#define A_5 KC_5
+#define A_6 KC_6
 

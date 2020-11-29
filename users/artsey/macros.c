@@ -18,43 +18,43 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
       } 
       break;
 
-      case LARTSEY_A:
+      case LA_A:
       if (record->event.pressed) {
          SEND_STRING("a");
       } 
       break;
       
-      case LARTSEY_R:
+      case LA_R:
       if (record->event.pressed) {
          SEND_STRING("r");
       } 
       break;
-      case LARTSEY_T:
+      case LA_T:
       if (record->event.pressed) {
          SEND_STRING("t");
       } 
       break;
-      case LARTSEY_S:
+      case LA_S:
       if (record->event.pressed) {
          SEND_STRING("s");
       } 
       break;
-      case LARTSEY_E:
+      case LA_E:
       if (record->event.pressed) {
          SEND_STRING("e");
       } 
       break;
-      case LARTSEY_Y:
+      case LA_Y:
       if (record->event.pressed) {
          SEND_STRING("y");
       } 
       break;
-      case LARTSEY_I:
+      case LA_I:
       if (record->event.pressed) {
          SEND_STRING("i");
       } 
       break;
-      case LARTSEY_O:
+      case LA_O:
       if (record->event.pressed) {
          SEND_STRING("o");
       } 
