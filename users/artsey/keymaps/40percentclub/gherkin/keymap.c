@@ -2,7 +2,7 @@
 #include QMK_KEYBOARD_H
 #include "quantum.h"
 #include "artsey.h"
-
+#include "g/keymap_combo.h"
 
 
 

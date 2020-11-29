@@ -7,5 +7,5 @@ MOUSEKEY_ENABLE = yes
 BOOTLOADER = caterina
 DYNAMIC_MACRO_ENABLE = yes
 SRC += artsey.c
-
-
+VPATH  +=  keyboards/gboards/
+COMBO_ENABLE=yes
