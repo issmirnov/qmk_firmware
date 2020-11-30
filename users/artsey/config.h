@@ -12,7 +12,7 @@
 #define COMBO_VARIABLE_LEN
 #define COMBO_TERM 30
 #define TAPPING_FORCE_HOLD
-#define COMBO_ALLOW_ACTION_KEYS
+// #define COMBO_ALLOW_ACTION_KEYS
 // #define COMBO_MUST_HOLD_MODS
 
 /* Mousekey stuff */

@@ -6,10 +6,10 @@ extern keymap_config_t keymap_config;
 
 enum layers {
   _ARTSEY_BASE = 0,
-  _ARTSEY_NAV,
-  _ARTSEY_BRAC,
   _ARTSEY_NUM,
-  _ARTSEY_SYM, 
+  _ARTSEY_SYM,
+  _ARTSEY_BRAC,
+  _ARTSEY_NAV, 
   _ARTSEY_MOU,
 };
 
