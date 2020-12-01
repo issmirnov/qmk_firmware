@@ -4,8 +4,7 @@ RGBLIGHT_ENABLE = no
 NKRO_ENABLE = yes
 LED_ANIMATIONS = no
 MOUSEKEY_ENABLE = yes
-
 DYNAMIC_MACRO_ENABLE = yes
 SRC += artsey.c
 VPATH  +=  keyboards/gboards/
-COMBO_ENABLE=yes
+COMBO_ENABLE= yes
