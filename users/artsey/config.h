@@ -23,5 +23,7 @@
   #define MOUSEKEY_DELAY 20
 #endif
 
+/* Old Action Stuff */
 #define NO_ACTION_MACRO
 #define NO_ACTION_FUNCTION
+

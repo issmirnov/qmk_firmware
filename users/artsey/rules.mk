@@ -1,10 +1,22 @@
+/* Turn off some stuff we do not need */
 TAP_DANCE_ENABLE = no
-COMBO_ENABLE = yes
+BOOTMAGIC_ENABLE = no
+EXTRAKEY_ENABLE = no
+CONSOLE_ENABLE = no
+AUDIO_ENABLE = no
 RGBLIGHT_ENABLE = no
-NKRO_ENABLE = yes
+LEADER_ENABLE = no
+MIDI_ENABLE = no
 LED_ANIMATIONS = no
-MOUSEKEY_ENABLE = yes
-DYNAMIC_MACRO_ENABLE = yes
+MOUSEKEY_ENABLE = no
+DYNAMIC_MACRO_ENABLE = no
+
+/* Turn on some stuff we need */
+COMBO_ENABLE = yes
+NKRO_ENABLE = yes
+
+/* Flags for smaller firmware */
+EXTRAFLAGS += -flto
+
 SRC += artsey.c
 VPATH  +=  keyboards/gboards/
-COMBO_ENABLE= yes
