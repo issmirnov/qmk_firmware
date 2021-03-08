@@ -27,3 +27,5 @@
 #define NO_ACTION_MACRO
 #define NO_ACTION_FUNCTION
 
+// Handedness
+#define MASTER_RIGHT
