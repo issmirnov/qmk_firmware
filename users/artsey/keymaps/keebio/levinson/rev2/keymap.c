@@ -1,7 +1,7 @@
 #include QMK_KEYBOARD_H
 #include "quantum.h"
 #include "artsey.h"
-#include "g/keymap_combo.h"
+#include "keymap_combo.h"
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
