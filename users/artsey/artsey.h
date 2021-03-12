@@ -42,25 +42,32 @@ enum custom_keycodes {
 
 
 
-// LAYOUT:
+// Named keys in LAYOUT:
 // ╭─────┬─────┬─────┬─────╮
 // │  A  │  R  │  T  │  S  │
 // ├─────┼─────┼─────┼─────┤
 // │  E  │  Y  │  I  │  O  │
 // ╰─────┴─────┴─────┴─────╯
 
+// Actual Keys
+// ╭─────┬─────┬─────┬─────╮
+// │  R  │  T  │  O  │  S  │
+// ├─────┼─────┼─────┼─────┤
+// │  A  │  E  │  I  │  N  │
+// ╰─────┴─────┴─────┴─────╯
+
 // Map named keys to avtual keycodes + layer toggles
-#define A_A LT(_ARTSEY_BRAC,KC_A)
-#define A_R KC_R
-#define A_T KC_T
+#define A_A LT(_ARTSEY_BRAC,KC_R)
+#define A_R KC_T
+#define A_T KC_O
 #define A_S LT(_ARTSEY_NUM,KC_S)
 
-#define A_E LT(_ARTSEY_SYM,KC_E)
-#define A_Y KC_Y
+#define A_E LT(_ARTSEY_SYM,KC_A)
+#define A_Y KC_E
 #define A_I KC_I
-#define A_O LT(_ARTSEY_NAV,KC_O)
+#define A_O LT(_ARTSEY_NAV,KC_N)
 
-// Number mappings tp keycodes
+// Number mappings to keycodes
 #define A_1 KC_1
 #define A_2 KC_2
 #define A_3 KC_3
