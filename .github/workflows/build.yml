@@ -1,0 +1,28 @@
+name: Build
+
+on:
+  push:
+    paths:
+      - ".github/workflows/build.yml"
+      - "**/**"
+  pull_request:
+    paths:
+      - ".github/workflows/build.yml"
+      - "**/**"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    container:
+      image: qmkfm/qmk_firmware
+    steps:
+      - name: Initialize submodules
+        run: make git-submodule
+      - name: Compile artsey for boardsource
+        run: make boardsource/3x4:artsey_left
+      - name: Archive artifacts
+        uses: actions/upload-artifact@v2
+        with:
+          name: boardsource_3x4_artsey_left
+          path: boardsource_3x4_artsey_left.hex
+        continue-on-error: true
