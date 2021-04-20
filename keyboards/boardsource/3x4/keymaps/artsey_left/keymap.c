@@ -2,7 +2,7 @@
 
 #include "artsey.h"
 #include "keymap_combo.h"
-#include "artsey.h"
+#include "artsey.c"
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
