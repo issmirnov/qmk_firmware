@@ -4,11 +4,11 @@ on:
   push:
     paths:
       - ".github/workflows/build.yml"
-      - "**/**"
+      - "keyboards/boardsource/3x4/**"
   pull_request:
     paths:
       - ".github/workflows/build.yml"
-      - "**/**"
+      - "keyboards/boardsource/3x4/**"
 
 jobs:
   build:
