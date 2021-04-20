@@ -16,8 +16,11 @@ jobs:
     container:
       image: qmkfm/qmk_firmware
     steps:
-      - name: Initialize submodules
-        run: make git-submodule
+      - uses: actions/checkout@v2
+        with:
+          submodules: recursive
+      # - name: Initialize submodules
+      #   run: make git-submodule
       - name: Compile artsey for boardsource
         run: make boardsource/3x4:artsey_left
       - name: Archive artifacts
